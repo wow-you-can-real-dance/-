@@ -56,7 +56,7 @@ def main():
     x=[]  
     y=[]  
     for i in np.arange(0,10):  
-        path='D:\cmnn.wav'  
+        path='D:\cmnn'+str(i)+'.wav'  
         max_freq,min_freq=wave_analysis(path)  
         x.append(i)  
         y.append(max_freq)  
